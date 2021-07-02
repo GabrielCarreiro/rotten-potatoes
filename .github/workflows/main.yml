@@ -21,6 +21,6 @@ jobs:
           context: ./src
           file: ./src/Dockerfile
           push: true
-          tags:
+          tags: |
             carreiro/rotten-potatoes:latest
             carreiro/rotten-potatoes:${{ github.run_number }}
